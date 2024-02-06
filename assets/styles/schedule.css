@@ -1,0 +1,27 @@
+main{
+    width: 100%;
+    display: flex;
+    
+    justify-content: center;
+}
+.h1,h2{
+    width: 100%;
+    text-align: end;
+}
+caption{
+    text-decoration: underline;
+    caption-side: top;
+}
+table{
+    width: 90%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.game{
+    width: 100%;
+
+}
+td{
+    height: 40px;
+    padding-right: 10px;
+}

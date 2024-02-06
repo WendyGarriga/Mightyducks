@@ -1,0 +1,15 @@
+.rules {
+    width: 57%;
+    height: 226%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 460px;
+    top: 240px;
+    align-items: center;
+}
+
+.fields {
+    list-style-type: lower-latin;
+}
