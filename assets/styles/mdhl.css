@@ -1,69 +1,96 @@
-* {
-    margin: 10px;
-    padding: 0;
-    box-sizing:border-box;
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
     font-family: "Comic Sans MS", "Comic Sans";
 }
 
-.header__1__titulo{
-    color: rgb(0, 0, 0);
-    position: absolute;
-    width: 70%;
-    height: 20px;
-    top: 13px;
-    left: 34px;
-}
-
-a[href="#"]{
-    color:rgb(255, 0, 0);
-    padding: 10;
-}
-
-.header__1__nav{
-    color: rgb(215, 14, 14);
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    gap: 50px;
-    position: absolute;
-    width: 140px;
-    height: 20px;
-    bottom: 136px;
-    left: 173px;
-    font-size: medium;
-}
-.header__1__logo{
-    position: absolute;
-    width: 358px;
-    height: 128px;
-    top: 198px;
-    right: 89px;
-    object-fit: contain;
-}
-
-.header__1__banner{
-    margin: 10px;
+.header1{
     width: 100%;
-    height: 34vh;
-    object-fit: cover;
-    object-position: 0 30%;
+    height: 40%;
+    z-index: 2;
 }
-.m__tit {
-        text-align: center;
-        width: 100%;
-        height: 42px;
-        background-color: rgb(14, 25, 34);
-        color: white;
+div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
-    
+.nav1{
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 10px;
+    width: 50%;
+    height: 20%;
+}
+a{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+a[href="#"]{
+    color:rgb(161, 29, 29);
+}
 
-.main__1 {
-    width: 57%;
-    height: 100%;
+header div nav{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+header div{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: center;
+}    
+nav a{
+    font-size: 15px;
+    text-decoration: none;
+    padding: 5px;
+    padding-right: 10px;
+    border-right: 1px solid white;
+}
+nav a:nth-last-child(1){
+    border: none;
+}
+nav a:hover{
+    transform: scale(.9);
+    color: white;
+    background-color: black;
+}
+
+.headbann1{
+    height: 54vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 30%;
+}
+.headtit {
+    text-align: center;
+    width: 100%;
+    height: 42px;
+    background-color: rgb(14, 25, 34);
+    color: white;
+}
+
+.m1{
+    width: 100%;
+    height: 400px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    position: absolute;
-    left: 500px;
-    top: 240px;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(223, 222, 222);
 }
